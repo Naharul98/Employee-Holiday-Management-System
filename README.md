@@ -27,4 +27,4 @@ The project consist of 3 different application, located in their respective dire
 - Offers the same functionality as the Employee website, however, it makes use of the REST Web service (Exposed by the web application) to perform its functions.
 
 ## Libraries used
-[Material Skin](https://github.com/IgnaceMaes/MaterialSkin)
+- [Material Skin](https://github.com/IgnaceMaes/MaterialSkin)
