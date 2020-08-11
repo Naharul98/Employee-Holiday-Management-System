@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Book holiday";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Enter holiday details</h2>
+
+<form action="@Url.Action("MakeBooking","BookHoliday",new { employeeID = Request.Cookies["employeeIdCookie"].Value.Split('=')[1].ToString()})" method="post">
+
+    @if (IsPost)
+    {
+        <div class="alert alert-danger">The 'from' date of request must be less than 'to' date of holiday request</div>
+    }
+    <div class="form-group">
+        <label for="date_from">From:</label>
+        <input class="form-control" type="date" id="date_from" name="date_from" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">To:</label>
+        <input class="form-control" type="date" id="date_to" name="date_to" required>
+    </div>
+    <div class="form-group">
+        <label for="reason">Reason:</label>
+        <textarea class="form-control" name="reason" rows="8" id="reason" placeholder="Input Reason for Requesting Holiday" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

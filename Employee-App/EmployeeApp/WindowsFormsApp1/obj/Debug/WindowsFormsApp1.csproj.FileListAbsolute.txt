@@ -1,0 +1,12 @@
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginFrm.resources
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\bin\Debug\MaterialSkin.dll
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\NAHARUL\Desktop\Projects for Cash\Component Programming part A\Employee-App\EmployeeApp\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmRequestHoliday.resources

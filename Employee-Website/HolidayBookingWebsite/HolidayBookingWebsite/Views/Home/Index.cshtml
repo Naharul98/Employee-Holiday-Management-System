@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h1>Holiday Booking</h1>
+        <p class="lead">Please follow the 3 step process given below in order to request a holiday booking from manager.</p>
+        @if (Request.IsAuthenticated)
+        {
+            <p><a href="/BookHoliday" class="btn btn-primary btn-lg">Book Holiday &raquo;</a></p>
+        }
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Step1 - Login</h2>
+        <p>
+            Login to the website using your company login credentials in order to request a booking from your manager.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Fill in Application</h2>
+        <p>In order to request holiday, you will have to input various details such as - dates and reason for booking holiday, for instance.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Send in Application</h2>
+        <p>Once you have filled in details of your holiday request, you have to press send in order to send the request in. Your manager will instantly be able to see your request and review it.</p>
+    </div>
+</div>

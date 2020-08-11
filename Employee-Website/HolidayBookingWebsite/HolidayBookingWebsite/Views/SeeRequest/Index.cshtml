@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<HolidayRequest>
+<h2>Request Status</h2>
+
+<table class="table">
+    <thead class="thead">
+        <tr>
+            <th>From Date</th>
+            <th>To Date</th>
+            <th>Reason</th>
+            <th>Approval</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.date_from.ToString("dd/MM/yyyy") </td>
+                <td> @item.date_to.ToString("dd/MM/yyyy") </td>
+                <td> @item.reason </td>
+                @if (item.approval == null)
+                {
+                    <td>Not Approved Yet</td>
+                }
+                @if (item.approval == false)
+                {
+                    <td> Rejected </td>
+                }
+                @if (item.approval == true)
+                {
+                    <td> Approved </td>
+                }
+            </tr>
+        }
+
+    </tbody>
+</table>
