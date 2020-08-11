@@ -1,5 +1,5 @@
-# Staff-Holiday-Booking-System
-A holiday booking system, built for employees &amp; managers of an organization.
+# Staff-Holiday-Management-System
+An employee holiday management system, built for employees &amp; managers of an organization.
 
 ## Project Structure
 The project consist of 3 different application, located in their respective directories
